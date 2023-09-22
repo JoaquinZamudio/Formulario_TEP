@@ -1,0 +1,145 @@
+@font-face {
+    font-family: always_smyle;
+    src: url(fuentes/always_smile/Always\ Smile.otf);
+}
+
+@font-face {
+    font-family: cute_notes;
+    src: url(fuentes/cute_notes/Cute\ Notes.ttf);
+}
+
+@font-face {
+    font-family: hello_honey;
+    src: url(fuentes/hello_honey/hello\ honey.otf);
+}
+
+@font-face {
+    font-family: love_story_2;
+    src: url(fuentes/love_story_2/love\ story\ ttf.ttf);
+}
+
+@font-face {
+    font-family: singkong;
+    src: url(fuentes/singkong/Singkong.otf);
+}
+
+@font-face {
+    font-family: starborn;
+    src: url(fuentes/starborn/Starborn.otf);
+}
+
+@font-face {
+    font-family: sticky_honey;
+    src: url(fuentes/sticky_honey/StickyHoney.ttf);
+}
+
+@font-face {
+    font-family: sweets_smile;
+    src: url(fuentes/sweets_smile/Sweets\ Smile.otf);
+}
+
+@font-face {
+    font-family: the_manila;
+    src: url(fuentes/the_manila/The\ Manila.otf);
+}
+
+body {
+    font-family: 'starborn';
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto; 
+}
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+.fondo{
+    background: linear-gradient(rgba(5, 7, 12, 0.6),rgba(5, 7, 12, 0.6)), url(image/TEP.jpg) repeat;
+    background-size: 100%;
+}
+
+img{
+    padding-left: 170px;
+    padding-right: 200px;
+    background-repeat: no-repeat;
+    width: 20em;
+}
+
+form {
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9,
+     #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px; 
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    font-family: 'singkong';
+    padding: 10px 2px;
+    margin-bottom: 10px;
+    border: 2px dashed black;
+    border-radius: 3px;
+}
+
+input:invalid:required{
+    border: 2px dashed red;
+    color: red;
+}
+
+input:invalid{
+    border: 2px dashed red;
+    color: red;
+}
+
+input[type="button"] {
+    background-color: #007BFF;
+    font-family: 'sweets_smile';
+    color: #fff;
+    padding: 10px 20px;
+    border: dotted;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+#respuesta {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background: linear-gradient(rgba(5, 7, 12, 0.6),rgba(5, 7, 12, 0.6)), url(image/TEP.jpg) repeat;
+    background-size: 100%;
+    color: aliceblue;
+    font-family: 'sticky_honey'
+}
+
+#mensajeError {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background: #ff6b6b; /* Color de fondo para mensajes de error */
+    color: #fff; /* Color del texto */
+    font-family: 'sweets_smile';
+    text-align: center;
+    display:none;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    min-height: 300px;
+}

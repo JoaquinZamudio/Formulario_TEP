@@ -1,0 +1,72 @@
+Instrucctivo de correcto uso de nuestro formulario:
+
+como primer punto cabe indicar que tenemos 3 metodos de verificar que el formulario 
+puede ser visible correctamente para cualquier usuario, esto indica que ya sea por 
+celular o mediante una computadora el usuario puede acceder al formulario.
+
+NOTA: si se accede por medio de alguna de las dos ligas no se puede visualizar los 
+datos enviados ya que los host gratuitos utilizados no son capaces de trabajar con 
+documentos de tipo json, en el cual fue indicado que se almacenaran los datos recabados.
+
+Liga 1 (infinity Free):http://phokyn28.rf.gd/ mediante esta url se 
+puede acceder a nuestro formulario alojado en infinity free  y lo unico que se debe de hacer es
+ingresar la url en un navegador ya sea de celular o computadora y se puede ver el formulario 
+sin problemas.
+
+como remendacion: baje un poco el volumen de su dispositivo y presione play en el video y 
+disfrute del formulario.
+
+Liga 2 (Git Hub): https://joaquinzamudio.github.io/formulario/  mediante esta url se 
+puede acceder a nuestro formulario alojado en github y lo unico que se debe de hacer es
+ingresar la url en un navegador ya sea de celular o computadora y se puede ver el formulario 
+sin problemas.
+
+como remendacion: baje un poco el volumen de su dispositivo y presione play en el video y 
+disfrute del formulario.
+
+Metodo 3 (Visual Studio Code y Node.js): para ingresar mediante visual studio primero que 
+nada se debe contar con visual studio code y node.js previamente instalados en la pc, una 
+vez echo esto se procede a abrir visual studio code.
+
+En la parte superior izquierda en la pestaña file se selecciona a opcion open folder.
+Se selecciona la carpeta TEP y se le da en abrir.
+
+Ya abierto el proyecto igual en la parte superior en la pestaña terminal se selecciona 
+nueva terminal.
+
+La terminal se abrira en la parte inferior en la cual se debe de introducir lo siguiente
+npm install express body-parser
+
+Se presiona enter y comenzara a instalar las dependencias necesarias para hacer la conexion
+con node.js 
+
+NOTA: en caso de salir el siguiente error: npm : El término 'npm' no se reconoce como nombre de 
+un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió correctamente 
+el nombre o,  i incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ npm install express body-parser
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (npm:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+	
+Verificar si no se encuentra instalado alguna extension de Node en visual Studio code ya que 
+esta no permite hacer la coneccion correctamente.
+
+Si no se encuentra ningun error la descarga se hara en pocos segundos y una vez finalizado se debe 
+introducir: node server.js
+
+En la terminal se mostrara un mensaje diciendo "Servidor Node.js escuchando en el puerto 5000"
+
+Una vez echo esto se abrira el navegador de su preferencia y se introducira lo siguiente:
+http://localhost:5000/
+
+Esto hara una conexion mediante tu localhost y de esta manera si se ingresan datos en el 
+formulario y se presiona el boton enviar, en la parte inferior de la pagina se mostrara el 
+mensaje "Datos guardados con exito"
+
+Cabe mencionar que una solo en la version de visual studio una vez enviados los datos los campos
+se limpian mientras que en los host no se pudo actualizar el codigo con esta funcion
+
+Para visualizar los datos enviados en visual studiose debe de abrir el archivo datos.json 
+que se encuentra en la parte izquierda junto con los demas archivos que contiene la carpeta 
+TEP previamente abierta 
